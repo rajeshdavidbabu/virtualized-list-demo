@@ -25,10 +25,6 @@ export const VirtualizedList = ({
     return items;
   };
 
-  const listItems = Array.from({ length: numberOfItems }, (_, index) => (
-    <ListItem key={index} index={index} />
-  ));
-
   return (
     <div
       className="overflow-y-scroll w-full border-2 border-black relative"

@@ -1,6 +1,6 @@
 import { NonVirtualizedList } from '~/components/non-virtualized-list';
 
-export const numberOfItems = 1;
+export const numberOfItems = 1000;
 
 export default function Index() {
   return (
